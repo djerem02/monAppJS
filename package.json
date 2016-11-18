@@ -15,8 +15,5 @@
   "bugs": {
     "url": "https://github.com/djerem02/monAppJS/issues"
   },
-  "homepage": "https://github.com/djerem02/monAppJS#readme",
-  "dependencies": {
-    "express": "^4.14.0"
-  }
+  "homepage": "https://github.com/djerem02/monAppJS#readme"
 }
