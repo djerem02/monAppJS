@@ -7,8 +7,8 @@ apt-get -y install python build-essential nodejs
 
 npm install pm2 -g
 cd /home/ubuntu/
-git clone git://github.com/dgabrielli76/sort-back.git
-cd sort-back
+git clone git://github.com/djerem02/monAppJS.git
+cd monAppJS
 npm install .
 ulimit -n 102400
 PORT=80 NODE_ENV=production pm2 start index.js
