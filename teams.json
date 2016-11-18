@@ -1,0 +1,20 @@
+{
+   "team1" : {
+      "nom" : "Paris SG",
+	  "ville" : "Paris",
+	  "classement" : "3",
+	  "id": 1
+   },
+   "team2" : {
+      "nom" : "OGC Nice",
+	  "ville" : "Nice",
+	  "classement" : "1",
+	  "id": 2
+   },
+   "team3" : {
+      "nom" : "AS Monaco",
+	  "ville" : "Monaco",
+	  "classement" : "2",
+	  "id": 3
+   }
+}

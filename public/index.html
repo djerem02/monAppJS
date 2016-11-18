@@ -1,11 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr" ng-app="team">
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.2.3/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
-    <title>Bienvenue</title>
+    <title>Team</title>
 </head>
-<body>
-    <h1>Football</h1>
+<body ng-controller="TeamController">
+    <h1>Team</h1>
+
+    <div class="column">
+    <form ng-submit="addTeam()" class="form"></form>
+    <div class="column">
+        <input class="input" type="number" placeholder="N°" ng-model="team">
+    </div>
+    <div class="column">
+        <a class="button is-primary full-width" ng-click="getTeam()">Afficher</a>
+    </div>
+    </form>
+    </div>
+    <div class="notification" ng-repeat="player in players track by $index">
+        <button class="delete" ng-click="removePlayer($index)"></button>
+        {{team}}
+    </div>
 
 </body>
 </html>
