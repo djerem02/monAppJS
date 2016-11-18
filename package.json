@@ -1,19 +1,25 @@
 {
   "name": "monappjs",
   "version": "1.0.0",
-  "description": "",
+  "description": "AWS project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+    "start" : "node index.js"
+  },
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djerem02/monAppJS.git"
   },
   
-  "author": "mydjer",
+  "author": "Jérémy Drouhin",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dgabrielli76/sort-back/issues"
+  },
+  "homepage": "https://github.com/dgabrielli76/sort-back#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0"
   }
- 
 }
-
-
